@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Page - Index.html */
+/* Navbar */
+
+.navbar {
+    margin-bottom: 150px;
+    padding: 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.nav-item {
+    margin-right: 16px;
+}
+
+.nav-item.active a {
+    color: #83D987 !important;
+    font-weight: 600 !important;
+}
+
+.nav-item a {
+    color: #9094A2 !important;
+    font-weight: 200;
+}
+
+.btn-masuk {
+    padding: 12px 50px;
+    background-color: #83D987;
+}
+
+.navbar-fixed-top.scrolled {
+    color: black !important;
+    background-color: rgb(255, 255, 255) !important;
+    transition: background-color 200ms linear;
+    box-shadow: 2px 3px 8px -1px rgba(0, 0, 0, 0.59);
+}
+
+.nav-link.scrolled {
+    color: rgb(0, 0, 0) !important;
+    font-size: 18px;
+}
+
+/* End Navbar */
+
+/* Header */
+.header {
+    padding: 120px 0;
+}
+
+.header-desc h1 {
+    color: #0F1D37;
+    font-weight: 700;
+}
+
+.btn-mulai {
+    padding: 20px 40px;
+    background-color: #83D987;
+    border-radius: 12px;
+    box-shadow: -1px 23px 32px -17px rgba(31, 31, 31, 0.75);
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Benefit */
+
+.benefit {
+    margin-top: -50px;
+}
+
+.benefit-text h2 {
+    color: #0F1D37;
+    font-weight: 700;
+}
+
+/* End Benefit */
+
+/* Event Webinar */
+.event-text h2 {
+    color: #0F1D37;
+    font-weight: 700;
+}
+
+.btn-beliTiket {
+    background-color: #65D9E4;
+    padding: 7px;
+    border-radius: 6px;
+    color: #EBFAFC;
+}
+
+/* End Event Webinar */
+
+/* Footer */
+.section-footer {
+    background-color: #C6F3C8;
+}
+
+.section-footer ul li a {
+    color: #628395;
+}
+
+.btn-home-page {
+    border-radius: 4px;
+    background-color: #83D987;
+    color: #fff;
+}
+
+.section-success h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #071c4d;
+}
+
+.section-success p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+}
+
+/* End Page - Index.html */
+
+/* Page - Login.html  */
+.btn-login {
+    background-color: #83D987;
+}
+
+.login-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #fff), color-stop(40%, #E4E6EB));
+    background: linear-gradient(90deg, #fff 60%, #E4E6EB 40%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-login {
+    height: 100vh;
+}
+
+.page-login .btn-login {
+    background-color: #83D987;
+    color: #fff;
+    -webkit-box-shadow: 0 4px 0 #5e5e5e;
+    box-shadow: 0 4px 0 #5e5e5e;
+    cursor: pointer;
+}
+
+.page-login .btn-login:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    top: 4px;
+    border: none;
+    position: relative;
+}
+
+/* Page - Classroom.html */
+.bg {
+    background-color: #f1f1f1;
+    height: 580px;
+    padding: 180px 0 0px;
+}
+
+.info-kelas {
+    background-color: #F1F1F1;
+
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0 50px;
+}
+
+.box-header {
+    background-color: #83D987;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-class {
+    margin-top: -270px;
+}
+
+/* End Classroom */
+
+
+/* Page : ambil_kelas.html */
+.section-details-header {
+    min-height: 410px;
+    background: #f1f1f1;
+    padding: 180px 0 160px;
+}
+
+.section-details-content {
+    margin-top: -110px;
+    min-height: 100vh;
+}
+
+.section-details-content .gallery .video-container {
+    display: block;
+
+    margin: auto;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+.section-details-content .card-details {
+    padding: 30px;
+    border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+    font-size: 26px;
+}
+
+.section-details-content .join-container {
+    margin-top: -25px;
+}
+
+.section-details-content .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.section-details-content .btn-join-now {
+    background-color: #83D987;
+    color: #fff;
+    border-radius: 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.section-details-content .btn-join-now:hover {
+    background-color: #74dd79;
+    color: #fff;
+}
+/* End Page : ambil_kelas.html */
+
+
+/* Responsive Area */
+/* Mobile UI */
+@media screen and (max-width: 513px) {
+
+    /* Page : Index.html */
+    .nav-item a {
+        text-align: center;
+        margin: 18px 0;
+    }
+
+    .btn-masuk {
+        display: block;
+    }
+
+    .header-img img {
+        display: none;
+    }
+
+    .benefit-img img {
+        display: none;
+    }
+
+    /* Page : Classroom.html */
+    .box {
+        width: 100%;
+        height: 100%;
+        margin: 20px auto;
+        border: #b1b1b1 solid 1px;
+    }
+
+    .card-class {
+        margin-top: -70px;
+    }
+
+    .success-img {
+        width: 50%;
+    }
+
+    .img-pengajar {
+        width: 60px;
+    }
+
+    .text-pengajar h4 {
+        font-size: 16px;
+    }
+
+    .text-pengajar p {
+        font-size: 14px;
+    }
+}
